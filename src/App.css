@@ -13,10 +13,44 @@ body {
 .job {
     color: rgb(23, 6, 150);
 }
+
 img {
     width: 50%;
     height: 240px;
 }
+
 .uebermich {
     color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.progSprache-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.progSprache {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    height: 200px;
+}
+#javascript, #objktiv-c {
+    height: 100px;
+    margin-top: 30px;
 }
