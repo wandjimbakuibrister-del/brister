@@ -1,0 +1,35 @@
+.foto-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+.name,
+.job {
+    color: rgb(23, 6, 150);
+}
+
+.info {
+    max-height: 240px;
+    font-size: 2rem;
+}
+
+.foto {
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .foto {
+        height: 600px;
+    }
+
+    #info p,
+    #info h1,
+    #info span {
+        font-size: 1.5rem;
+    }
+
+}

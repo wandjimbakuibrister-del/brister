@@ -1,0 +1,43 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+    border: 1px solid white;
+    padding:5px;
+
+}
+
+.sprachen {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+}
+
+.box img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#titelSprache {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+#titelSprache h3,
+#titelSprache p,
+.sprachen h4 {
+    margin: 0;
+}
+
+h4 {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
