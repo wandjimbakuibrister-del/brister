@@ -13,6 +13,8 @@ import "./Components/Projekte/Projekt.css"
 
 import Kontakte from "./Components/Kontakte/Kontakte.js"
 import "./Components/Kontakte/kontakte.css"
+import Footer from "./Components/Footer/Footer.js"
+import "./Components/Footer/Footer.css"
 
 function App() {
     const name = "Brister Wandji";
@@ -87,6 +89,7 @@ function App() {
                 link="http://192.168.56.1:3000"
             />
             <Kontakte />
+            <Footer />
         </main>
     );
 }

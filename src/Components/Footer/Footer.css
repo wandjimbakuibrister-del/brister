@@ -1,0 +1,14 @@
+footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 10px;
+    p{
+        font-size: 12px;
+    }
+}
+footer img {
+    width: 30px;
+    height: 30px;
+}   

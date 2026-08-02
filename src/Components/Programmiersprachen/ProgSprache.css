@@ -8,6 +8,7 @@ main {
     grid-template-columns: 1fr;
     margin: 10px;
     gap: 10px;
+    max-width: 100%;
 }
 
 .progSprache-container {

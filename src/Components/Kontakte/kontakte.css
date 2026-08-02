@@ -21,8 +21,18 @@
     gap: 10px;
     padding: 10px;
 }
-input {
+input, textarea ,button {
     padding: 5px;
     border-radius: 5px;
     border: none;
+    background-color: #13054f;
+    color: white;
+}
+@media (min-width: 768px) {
+    .kontakt-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
 }
