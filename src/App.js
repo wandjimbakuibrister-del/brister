@@ -81,7 +81,7 @@ function App() {
                 name2="HTML"
                 name3="JAVASCRIPT"
                 name4="React"
-                link="https://wandjimbakuibrister-del.github.io/Projekt_Webentwicklung2026-hsworms/"
+                link="http://192.168.56.1:3000"
             />
         </main>
     );
