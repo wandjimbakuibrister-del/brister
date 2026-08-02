@@ -11,6 +11,9 @@ import "./Components/Head/Head.css";
 import Projekt from "./Components/Projekte/Projekt.js"
 import "./Components/Projekte/Projekt.css"
 
+import Kontakte from "./Components/Kontakte/Kontakte.js"
+import "./Components/Kontakte/kontakte.css"
+
 function App() {
     const name = "Brister Wandji";
 
@@ -83,6 +86,7 @@ function App() {
                 name4="React"
                 link="http://192.168.56.1:3000"
             />
+            <Kontakte />
         </main>
     );
 }
