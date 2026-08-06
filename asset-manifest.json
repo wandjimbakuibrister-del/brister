@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wandjimbakuibrister-del/brister.git/static/css/main.01f2423c.css",
+    "main.js": "/wandjimbakuibrister-del/brister.git/static/js/main.5c465a3f.js",
+    "index.html": "/wandjimbakuibrister-del/brister.git/index.html",
+    "main.01f2423c.css.map": "/wandjimbakuibrister-del/brister.git/static/css/main.01f2423c.css.map",
+    "main.5c465a3f.js.map": "/wandjimbakuibrister-del/brister.git/static/js/main.5c465a3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f2423c.css",
+    "static/js/main.5c465a3f.js"
+  ]
+}
