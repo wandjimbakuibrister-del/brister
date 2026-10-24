@@ -22,7 +22,7 @@ function App() {
     return (
         <main>
             <Head a={name}
-                link="public/brister.png" />
+                link="public/images/brister.png" />
 
             <UeberMich />
 
@@ -69,7 +69,7 @@ function App() {
             </section>
             <Projekt
                 alt="meine WM Seite"
-                fotolink="./fifa.png"
+                fotolink="public/images/fifa.png"
                 titel="Webseite zu Weltmeisterschaft 2026 Informationen"
                 description="Eine moderne Webseite mit Mannschaften, Spielplan, Quiz und wichtigen Informationen zur Fußball-Weltmeisterschaft 2026."
                 name1="CSS"
@@ -79,7 +79,7 @@ function App() {
             />
             <Projekt
                 alt="Mein Porto-Folio"
-                fotolink="./porto.png"
+                fotolink="public/images/porto.png"
                 titel="Webseite zu meinem Porto-Folio"
                 description="Mein persönliches Portfolio mit Informationen über mich, meine Kenntnisse und meine bisherigen Webprojekte."
                 name1="CSS"
